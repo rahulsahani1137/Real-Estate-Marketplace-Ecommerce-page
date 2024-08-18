@@ -5,5 +5,6 @@ const router = express.Router();
 
 //get post put delete
 router.get("/", auth.welcome);
+router.post("/pre-register", auth.preRegister)
 
 export default router;
